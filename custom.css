@@ -1,0 +1,14 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: var(--bs-warning)!important; /* Change this to the desired color */
+  background: unset;
+}
+
+.active>.page-link, .page-link.active{
+  background: var(--bs-warning);
+  border-color: var(--bs-warning);
+}
+
+
+.btn-flat{
+  border-radius: 0px;
+}

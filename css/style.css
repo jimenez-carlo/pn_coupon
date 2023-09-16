@@ -26,6 +26,9 @@ a:focus {
 h1 {
     /* font-family: 'Source Code Pro', monospace; */
     font-weight: 900;
+    background: -webkit-linear-gradient(#f92b61, #fcc80e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h2 {
